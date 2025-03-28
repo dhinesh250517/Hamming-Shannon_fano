@@ -1,13 +1,13 @@
-HUFFMAN AND SHANNON_FANO
+#HUFFMAN AND SHANNON_FANO
 Consider a discrete memoryless source with symbols and statistics {0.125, 0.0625, 0.25, 0.0625, 0.125, 0.125, 0.25} for its output. Apply the Huffman and Shannon-Fano to this source.
-AIM:
+##AIM:
 To compute the Average Codeword Length, Entropy, Efficiency, Redundancy, and Variance for a discrete memoryless source using Huffman and Shannon-Fano coding based on the given probabilities and codeword lengths.
 
-TOOLS REQUIRED :
+##TOOLS REQUIRED :
 Python: A versatile language for scientific computing and signal processing.
 NumPy & Matplotlib: Libraries for numerical operations and high-quality visualizations, essential for demonstrating sampling.
 
-PROGRAM:
+##PROGRAM:
 ```
 import numpy as np
 import math 
@@ -49,10 +49,16 @@ print(f"Efficiency is : {eff*100} %")
 print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
 ```
-OUTPUT:
-CALCULATIONS:
+##OUTPUT:
+![image](https://github.com/user-attachments/assets/a0604fa3-03e9-4ae3-a3fe-c296cafeee83)
 
-RESULT:
+##CALCULATIONS:
+![WhatsApp Image 2025-03-28 at 11 36 35_74edeb2e](https://github.com/user-attachments/assets/ee5e42c6-77e9-41b6-aab5-dcdfdc4aeedd)
+![WhatsApp Image 2025-03-28 at 11 36 36_9ea56aab](https://github.com/user-attachments/assets/352aa4ad-bbf8-43cb-95c5-4432bfc09e1d)
+![WhatsApp Image 2025-03-28 at 11 36 36_0f329ee9](https://github.com/user-attachments/assets/d1c03c73-89f1-4b69-82b1-16bcd6b3c479)
+
+
+##RESULT:
 For the given probabilities 0.125,0.0625,0.25,0.0625,0.125,0.125,0.25.
 Average Codeword Length is : 2.625
 Entropy is : 2.625
